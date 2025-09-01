@@ -1,0 +1,19 @@
+{
+  "name": "quiz-party",
+  "version": "1.0.0",
+  "repository": "https://github.com/Nqbral/quiz-party.git",
+  "author": "Simon Chevalier",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "workspaces/*"
+    ]
+  },
+  "scripts": {
+    "start:dev:client": "yarn workspace @shadow-network/client start:dev",
+    "start:prod:client": "yarn workspace @shadow-network/client start:prod",
+    "start:dev:server": "yarn workspace @shadow-network/server start:dev",
+    "start:prod:server": "yarn workspace @shadow-network/server start:prod"
+  }
+}
