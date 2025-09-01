@@ -11,9 +11,9 @@
     ]
   },
   "scripts": {
-    "start:dev:client": "yarn workspace @shadow-network/client start:dev",
-    "start:prod:client": "yarn workspace @shadow-network/client start:prod",
-    "start:dev:server": "yarn workspace @shadow-network/server start:dev",
-    "start:prod:server": "yarn workspace @shadow-network/server start:prod"
+    "start:dev:client": "yarn workspace @quiz-party/client start:dev",
+    "start:prod:client": "yarn workspace @quiz-party/client start:prod",
+    "start:dev:server": "yarn workspace @quiz-party/server start:dev",
+    "start:prod:server": "yarn workspace @quiz-party/server start:prod"
   }
 }
